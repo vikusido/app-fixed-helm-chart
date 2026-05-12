@@ -4,6 +4,9 @@ image:
   repository: vikusido/app-fixed
   pullPolicy: IfNotPresent
   tag: latest
+  pullSecret: ""
+  
+containerPort: 8080
 
 podAnnotations: {}
 
